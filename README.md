@@ -10,3 +10,16 @@
 ### Note
 
 This application for educational purposes only. Don't use it for illegal things.
+
+### How to use
+
+Write your Discord Token in Token.txt
+Write what you want to spam in SpamText.txt
+
+### Requirements 
+py -m pip install pyfade
+py -m pip install requests
+
+#### Last Note
+
+Im trying to learn Python so if my code is bad, please forgive.
