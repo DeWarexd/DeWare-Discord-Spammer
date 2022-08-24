@@ -6,7 +6,16 @@ import pyfade
 
 os.system("cls")
 
-print(pyfade.Fade.Vertical(pyfade.Colors.yellow_to_red, '''
+f = open("Token.txt", "r")
+t = open("SpamText.txt","r")
+
+token = f.read()
+
+tokenleng = token.__len__()
+
+spaces = "─"*tokenleng
+
+print(pyfade.Fade.Vertical(pyfade.Colors.yellow_to_red, f'''
 ▓█████▄ ▓█████  ██░ ██  ▒█████   ▒█████   ██ ▄█▀
 ▒██▀ ██▌▓█   ▀ ▓██░ ██▒▒██▒  ██▒▒██▒  ██▒ ██▄█▒ 
 ░██   █▌▒███   ▒██▀▀██░▒██░  ██▒▒██░  ██▒▓███▄░ 
@@ -26,12 +35,12 @@ print(pyfade.Fade.Vertical(pyfade.Colors.yellow_to_red, '''
 │Undetected 2022                            │
 ├───────────────────────────────────────────┤
 │discord.gg/HXCxmc4G4J                      │
-└───────────────────────────────────────────┘'''))
+└───────────────────────────────────────────┘
+┌────────{spaces}┐
+│Token: {token} │
+└────────{spaces}┘
+'''))
 
-f = open("Token.txt", "r")
-t = open("SpamText.txt","r")
-
-token = f.read()
 
 items = [
     t.read()
