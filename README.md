@@ -3,6 +3,8 @@
 
 ## Features
 
+![image](https://user-images.githubusercontent.com/83973611/186635591-9a5a472e-f2e9-4f31-9c94-9726db9d4c4d.png)
+
 - [x] Send message to multiple channels.
 - [x] Proxy thing (idk i just putted what i learned in internet so idk if its working or not i have no idea.)
 - [ ] Multi-Token Spammer 
