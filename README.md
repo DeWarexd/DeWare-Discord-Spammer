@@ -1,4 +1,4 @@
-# ⚠️ DeWare save.dat grabber
+# ⚠️ DeWare Discord Spammer
 
 a simple python code that lets you to spam in discord channels.
 
