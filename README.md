@@ -1,27 +1,32 @@
-# DeHook Discord Spammer Python
-[Discord](https://discord.com/invite/HXCxmc4G4J) | [YouTube](https://www.youtube.com/channel/UC8iAdwlggk1CkNbGiIEPNVQ)
+# ⚠️ DeWare save.dat grabber
 
-## Features
+a simple python code that lets you to spam in discord channels.
 
-![image](https://user-images.githubusercontent.com/83973611/186635591-9a5a472e-f2e9-4f31-9c94-9726db9d4c4d.png)
+**[Discord](https://discord.gg/FQkRFbzY6E)**
 
-- [x] Send message to multiple channels.
-- [x] Proxy thing (idk i just putted what i learned in internet so idk if its working or not i have no idea.)
-- [ ] Multi-Token Spammer 
+## 🔧 Installation
 
-### Note
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install needed packages.
 
-This application for educational purposes only. Don't use it for illegal things.
+```bash
+pip install requests 
+pip install pyfade 
+```
 
-### How to use
+## 💡 Features
+- **Multiple channel support**
 
-Write your Discord Token in Token.txt
-Write what you want to spam in SpamText.txt
+## 🎶 How to convert it into exe
 
-### Requirements 
-py -m pip install pyfade
-py -m pip install requests
+```bash
+pip install pyinstaller
+```
 
-#### Last Note
+- go to cmd and execute following command:
+```bash
+pyinstaller main.py --onefile --icon=NONE
+```
 
-Im trying to learn Python so if my code is bad, please forgive.
+## ⚠️ Note
+
+its a very old project so if it doesnt work idk why / its the pyfade fix it urself
